@@ -1,3 +1,21 @@
+# Raptor V90
+
+Unofficial Powkiddy V90/MiyooCFW port of **Raptor: Call of the Shadows**.
+
+This port is based on [RetroGamer02/raptor-consoles](https://github.com/RetroGamer02/raptor-consoles), branch `multi-sys`, version 1.0.4. The upstream project is based on reconstructed and reverse-engineered Raptor source code by nukeykt, wel97459, skynettx and other contributors.
+
+## Features
+
+* Powkiddy V90 support
+* MiyooCFW 2.0.0-beta-2
+* SDL 1.2 controls
+* ARM-safe animation and sprite decoding
+* Pixel-perfect 320×200 image centered on the 320×240 display
+* Music and sound effects
+* Pilot save and load
+* Automatic `PLAYER / RAPTOR` registration without a keyboard
+* Hangar, store and complete campaign support
+
 ## Required game data
 
 Commercial Raptor game data is **not included** in this release.
@@ -107,3 +125,12 @@ CHAR0009.FIL
 ```
 
 When updating an older installation, back up `SETUP.INI` and any `CHAR*.FIL` files if you want to preserve your settings and pilots.
+
+
+## License and credits
+
+The source port is distributed under the GPL-2.0 license.
+
+Raptor: Call of the Shadows and its original commercial assets belong to their respective copyright holders.
+
+This is an unofficial community port and is not affiliated with the original game's publisher or developers.
